@@ -1,6 +1,7 @@
 source "https://api.berkshelf.com"
 
 cookbook "thoth", github: "joshuacox/thoth-cookbook"
+cookbook 'hostsfile'
 cookbook "drupal", github: "joshuacox/drupal-cookbook"
 cookbook "vdd", github: "joshuacox/vdd-cookbook"
 cookbook "vdd_example", github: "joshuacox/vdd_example-cookbook"
